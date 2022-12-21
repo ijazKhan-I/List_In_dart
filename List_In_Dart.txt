@@ -1,0 +1,20 @@
+//// How to Access/ print the values of a list in dart programming luaguage
+
+
+void main()
+{
+
+  List list=[12,23,34,"ijaz khan",33.33,true,"String"];
+  list.forEach((item) {
+    print(item);
+  });
+  print("**********For loop *****************");
+
+  for(int i=0;i<list.length;i++){
+    print(list[i]);
+  }
+  print("**********pritn through For in loop********");
+  for(var i in list){
+    print(i);
+  }
+}
